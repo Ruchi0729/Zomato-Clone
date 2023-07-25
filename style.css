@@ -1,0 +1,182 @@
+body {
+    margin: 0%;
+    background-color: #d9b6ca;
+}
+
+header {
+    height: 58px;
+    width: 100%;
+    background-color: brown;
+    /* border-color: rgb(12, 12, 12); */
+    /* border-style: solid; */
+    float: left;
+    padding: 0%;
+    /* margin-top: -5ch; */
+}
+
+header h1 {
+    margin-top: 1%;
+    color: azure;
+    float: left;
+    margin-left: 3%;
+}
+
+header img {
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+#Search {
+    height: 470px;
+    width: 100%;
+    /* border:1px solid red;
+ background-color: #d9b6ca; */
+    background-image: url('Images/food-wallpaper.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 470px;
+}
+
+.logo {
+    height: 106px;
+    width: 106px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 6%;
+    position: absolute;
+    font-size: 90px;
+    /* animation: revolve 10s infinite; */
+}
+
+.logo span {
+    font-size: 76px;
+    margin-left: 16%;
+
+}
+
+#Search p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 32%;
+    margin-top: 17%;
+    position: absolute;
+}
+
+.dropdown {
+    height: 60px;
+    width: 42%;
+    margin-top: 22%;
+    margin-left: 29%;
+    position: absolute;
+}
+
+select {
+    height: 60px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+
+#RestSelect {
+    width: 59%;
+}
+
+#QuickSearch {
+    /* height: 600px; */
+    display: inline-block;
+    width: 80%;
+    /* background-color: #f371ba; */
+    /* border: 5px solid white; */
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.QuickHeading {
+    color: rgb(78, 29, 29);
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-left: 2%;
+}
+
+.QuickSubheading {
+    color: gray;
+    font-size: 20px;
+    line-height: 2;
+    margin-left: 2%;
+}
+
+.container {
+    height: 180px;
+    width: 30%;
+    /* border: 2px solid black; */
+    margin-left: 2%;
+    margin-top: 3%;
+    float: left;
+
+    box-shadow:10px 20px 10px gray;
+}
+
+.titleComponent1 {
+    height: 180px;
+    width: 52%;
+    float: left;
+}
+
+.titleComponent1>img {
+    width: 100%;
+    height: 100%;
+}
+
+.compHeading>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 3%;
+    margin-top: 15%;
+    float: left;
+    font-size: 25px;
+}
+
+.compHeading1 {
+    width: 45%;
+    float: left;
+    font-size: 22px;
+    color: gray;
+    margin-left: 3%;
+}
+
+footer{
+    background-color: #3b2632;
+    color:white;
+    text-align: center;
+}
+
+.footText{
+    font-size:20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width:32%;
+    border-right: 2px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+ul{
+    list-style-type: none;
+}
+
+.socialLogo{
+    height:50px;
+}
+
