@@ -335,3 +335,21 @@ body{
          width: 98%;
      }
  }
+
+ #main{
+    z-index: 1;
+    height: 800px;
+}
+
+#coupon{
+    background-image: url(Images/coupon-code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 408px;
+    width: 724px;
+    z-index: 100;
+    position: absolute;
+    margin-top: -604px;
+    margin-left: 412px;
+    text-align: end;
+}
